@@ -20,7 +20,9 @@ export default class Header extends Component {
              <li class="nav-item">
                <a class="nav-link"><Link to="/click">Jquery Click</Link></a>
              </li>
-
+             <li class="nav-item">
+               <a class="nav-link"><Link to="/clicktextbox">Clicktext box</Link></a>
+             </li>
            </ul>
          </div>
        </div>

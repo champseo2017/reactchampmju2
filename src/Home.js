@@ -19,8 +19,6 @@ export default class Home extends Component {
       <ul>
         <li>รู้จักกับอีเวนต์</li>
         <li>JQuery คืออะไร</li>
-        <li>อีเวนต์ click</li>
-        <li>อีเวนต์ dbclick</li>
         <li>อีเวนต์ dbclick</li>
         <li>ส่งค่าผ่านออบเจ็กต์ Event</li>
 

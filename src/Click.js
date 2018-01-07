@@ -26,8 +26,8 @@ export default class Click extends Component {
 <div class="container">
   <div class="row">
     <div class="col-lg-8 mx-auto">
-      <h2>About this page</h2>
-      <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
+      <h2>Event .click()</h2>
+      <p class="lead">Jquery API มีฟังก์ชั่นที่เกียวกับการควบคุมอีเวนต์อยู่หลายฟังก์ชั่น แต่ฟังก์ชั่นที่ถือว่าใช้ บ่อยมากๆ คือ ฟังก์ชั่น clik() โดยถ้าผู้ใช้คลิกเอลิเมนต์ที่เรากำหนด ก็จะไปรันคำสั่งที่ได้เขียนขึ้น</p>
  <div id="myData" className="basic myBlue">Please Click Me!</div>
  <br/>
      <Imgclick />
