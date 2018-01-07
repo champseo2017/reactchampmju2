@@ -41,16 +41,23 @@ export default class Clicktextbox extends Component {
        <form>
         <table>
         <tr>
-        <td>Name</td>
-        <td><input type="text" id="myName"/></td>
+        <div class="form-group">
+      <label for="Name">Name</label>
+        <input type="text" id="myName" className="form-control"/>
+        </div>
         </tr>
         <tr>
-        <td>Lastname</td>
-        <td><input type="text" id="myLast"/></td>
+          <div class="form-group">
+            <label for="Name">Lastname</label>
+        <input type="text" id="myLast" className="form-control"/>
+        </div>
         </tr>
         <tr>
-        <td>click for show >><input id="showIt" type="button" value="Show"/></td>
-        <td><div id="outPutStr"></div></td>
+          <div class="form-group">
+          <label for="Name">Show text</label>
+        <input id="showIt" type="button" value="Show" className="form-control"/><br/>
+        <div id="outPutStr"></div>
+        </div>
         </tr>
         </table>
        </form>
