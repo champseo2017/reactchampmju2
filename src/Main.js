@@ -23,6 +23,12 @@ export default class Header extends Component {
              <li class="nav-item">
                <a class="nav-link"><Link to="/clicktextbox">Clicktext box</Link></a>
              </li>
+             <li class="nav-item">
+               <a class="nav-link"><Link to="/Dbclick">Dbclick</Link></a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link"><Link to="/Event">Event</Link></a>
+             </li>
            </ul>
          </div>
        </div>

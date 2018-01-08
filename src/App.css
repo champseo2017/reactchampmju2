@@ -26,3 +26,22 @@ html *{
   color:red;
   font-size:16px;
 }
+
+#myGreen, #myRed, #myBlue, #myOrange {
+  width: 60px;
+  height: 60px;
+}
+#myGreen {background-color: green;}
+#myRed {background-color:red;}
+#myBlue{background-color: blue;}
+#myOrange{background-color: orange;}
+
+
+.basicRed{
+  width: 180px;
+  height: 180px;
+  background-color: red;
+}
+.showCoordinate{
+  color:blue;
+}

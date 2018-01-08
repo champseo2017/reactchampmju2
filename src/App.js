@@ -6,6 +6,8 @@ import Main from './Main';
 import Home from './Home';
 import Click from './Click';
 import Clicktextbox from './Clicktextbox';
+import Dbclick from './Dbclick';
+import Event from './Event';
 
 
 
@@ -19,6 +21,8 @@ class App extends Component {
            <Route exact path="/" component={Home} />
             <Route path="/click" component={Click} />
                 <Route path="/clicktextbox" component={Clicktextbox} />
+                  <Route path="/Dbclick" component={Dbclick} />
+                  <Route path="/Event" component={Event} />
           </Main>
 
 
